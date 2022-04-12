@@ -1,0 +1,153 @@
+  
+        body {
+            margin: 0;
+        }
+
+        table {
+            border-spacing: 0;
+        }
+
+        td {
+            padding: 0;
+        }
+
+        img {
+            border: 0;
+        }
+        .outerbox{
+            max-width: 1200px;
+            width: 100%;
+            border: #f5f1f1;
+            background-image: url(img/ExtraHopbg6.jpeg);  
+        }
+        .innerbox{
+            max-width: 800px;
+            width: 100%;
+            border: #f5f1f1;
+            background-image: url(img/ExtraHoplogo10.jpeg);   
+        }
+
+
+        .wrapper {
+            width: 80%;
+            table-layout: fixed;
+            background-image: url(img/ExtraHopbg2.png);
+            padding-bottom: 15px;
+            background-image:linear-gradient(to top,
+            rgba(255, 255, 255, 0.7),
+            rgba(224, 249, 255, 0.7))    
+        }
+
+        .main {
+            width: 100%;
+            height: 20px;
+            max-width: 800px;
+            height: 80%;
+            background-image: url(img/ExtraHoplogo9.jpeg);
+            font-family: sans-serif;
+            color: #ffffff;
+            box-shadow: 0 0 25px rgba(152, 234, 255, 0.1); 
+        }
+
+        .social {
+            width: 50px;
+            size-adjust: 50px;
+        }
+
+        .social-media {
+            padding: 0px 0 0px 62px;
+            display: inline-flex;
+        }
+
+        .two-columns {
+            font-size: 0;
+            text-align: left;
+        }
+
+        .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align:middle;
+        }
+
+        h2 {
+            padding: 0px 20px 12px 30px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+            color: rgb(255, 255, 255);
+            vertical-align: top;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            text-align: left;
+        }
+
+        bp {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+            text-align: left;
+        }
+
+        .button {
+            
+            background-color: #00383f;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 12px 20px;
+            font-weight: lighter;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #008f3b;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            padding: 12px 20px;
+            box-shadow: 0 0 25px rgba(0, 255, 42, 0.05);
+            font-weight: lighter;
+            border-radius: 5px;
+        }
+
+        .wrapper2 {
+            width: 80%;
+            margin: 0 auto;
+            table-layout: fixed;
+            background-color: #c0c0c0;
+            padding-bottom: 0px;
+            flex-wrap: wrap;
+            box-shadow: 0 0 25px rgba(0, 217, 255, 0.05);
+            text-align: center;
+        }
+
+        .main2 {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            justify-content: center;
+            background-image: url(img/ExtraHoplogo9.jpeg);
+            font-family: sans-serif;
+            color: #0e0d0d;
+            box-shadow: 0 0 25px rgba(70, 65, 38, 0.5);
+            border-radius: 0.5%;
+        }
+        .button2 {
+            color: black;
+        }
+        spam{
+            text-decoration: underline;
+            color: #a1a1a1;
+        }
+        spam:hover{
+            color: #ffffff;
+            text-shadow: 0 0 10px #fff;
+        }
+        
+     
+
+
+
+        @media screen and (max-width: 600px) {}
+
+        @media screen and (max-width: 400px) {}
